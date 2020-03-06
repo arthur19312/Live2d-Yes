@@ -14,7 +14,7 @@
 	<shared />
 	<main>
 		<CompatibilityOption_Cubism21to30>
-			<carray_list xs.n="idSets" count="103">
+			<carray_list xs.n="idSets" count="104">
 				<IdSet>
 					<s xs.n="idString21">PARAM_ANGLE_X</s>
 					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
@@ -632,6 +632,12 @@
 					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
 					<CPartGuid xs.n="guid30" uuid="4eccb35e-7002-40eb-baa9-adfb524e4d8b" note="PSD" />
 					<CPartId xs.n="id30" idstr="PSD" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">DST_BASE</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="71fae776-e218-4aee-873e-78e8ac0cb48a" note="ROOT" />
+					<CDeformerId xs.n="id30" idstr="__RootDeformer__" />
 				</IdSet>
 			</carray_list>
 		</CompatibilityOption_Cubism21to30>
